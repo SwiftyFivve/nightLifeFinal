@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		881963281A6B6B6000422936 /* navigationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881963271A6B6B6000422936 /* navigationTableViewController.swift */; };
+		881BA8DC1A7D431E006541B2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BA8D71A7D431E006541B2 /* Bolts.framework */; };
+		881BA8DD1A7D431E006541B2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BA8D81A7D431E006541B2 /* Parse.framework */; };
+		881BA8DE1A7D431E006541B2 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BA8D91A7D431E006541B2 /* ParseCrashReporting.framework */; };
+		881BA8DF1A7D431E006541B2 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BA8DA1A7D431E006541B2 /* ParseFacebookUtils.framework */; };
+		881BA8E01A7D431E006541B2 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BA8DB1A7D431E006541B2 /* ParseUI.framework */; };
+		885068A21A771713008CC00E /* BlockedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885068A11A771713008CC00E /* BlockedListViewController.swift */; };
+		885068A41A77197E008CC00E /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885068A31A77197E008CC00E /* AddressBookUI.framework */; };
+		885068A61A771985008CC00E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885068A51A771985008CC00E /* AddressBook.framework */; };
+		8863C8321A61A835004C61BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8863C8311A61A835004C61BD /* AppDelegate.swift */; };
+		8863C8351A61A835004C61BD /* nightLifeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8863C8331A61A835004C61BD /* nightLifeApp.xcdatamodeld */; };
+		8863C8371A61A835004C61BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8863C8361A61A835004C61BD /* ViewController.swift */; };
+		8863C83A1A61A835004C61BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8863C8381A61A835004C61BD /* Main.storyboard */; };
+		8863C83C1A61A835004C61BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8863C83B1A61A835004C61BD /* Images.xcassets */; };
+		8863C83F1A61A835004C61BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8863C83D1A61A835004C61BD /* LaunchScreen.xib */; };
+		8863C84B1A61A835004C61BD /* nightLifeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8863C84A1A61A835004C61BD /* nightLifeAppTests.swift */; };
+		8863C85B1A61A989004C61BD /* Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 8863C8551A61A989004C61BD /* Contacts.png */; };
+		8863C85C1A61A989004C61BD /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 8863C8561A61A989004C61BD /* glass.png */; };
+		8863C85D1A61A989004C61BD /* hamburgerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8863C8571A61A989004C61BD /* hamburgerButton.png */; };
+		8863C85E1A61A989004C61BD /* location-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8863C8581A61A989004C61BD /* location-circle.png */; };
+		8863C85F1A61A989004C61BD /* NightLife_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8863C8591A61A989004C61BD /* NightLife_logo.png */; };
+		8863C8601A61A989004C61BD /* settingsGear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8863C85A1A61A989004C61BD /* settingsGear.png */; };
+		8863C8621A61ABBE004C61BD /* glassGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8863C8611A61ABBE004C61BD /* glassGrey.png */; };
+		8863C8641A61ADBB004C61BD /* splashLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8863C8631A61ADBB004C61BD /* splashLogo.png */; };
+		8863C8661A61BE95004C61BD /* emptyglass.png in Resources */ = {isa = PBXBuildFile; fileRef = 8863C8651A61BE95004C61BD /* emptyglass.png */; };
+		88700F6C1A664D3A0019A8C5 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88700F6B1A664D3A0019A8C5 /* settingsViewController.swift */; };
+		888033C31A7AB59F00AFC549 /* AddFriendsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888033C21A7AB59F00AFC549 /* AddFriendsDemoViewController.swift */; };
+		888670CB1A774D1100B9AA66 /* safeDriversViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888670CA1A774D1100B9AA66 /* safeDriversViewController.swift */; };
+		889C04D71A63C82C00E2B7C0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889C04D61A63C82C00E2B7C0 /* AudioToolbox.framework */; };
+		889C04D91A63C83400E2B7C0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889C04D81A63C83400E2B7C0 /* CFNetwork.framework */; };
+		889C04DB1A63C83D00E2B7C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889C04DA1A63C83D00E2B7C0 /* CoreGraphics.framework */; };
+		889C04DD1A63C84500E2B7C0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889C04DC1A63C84500E2B7C0 /* CoreLocation.framework */; };
+		889C04DF1A63C84E00E2B7C0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889C04DE1A63C84E00E2B7C0 /* MobileCoreServices.framework */; };
+		889C04E11A63C85600E2B7C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889C04E01A63C85600E2B7C0 /* QuartzCore.framework */; };
+		889C04E31A63C86100E2B7C0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889C04E21A63C86100E2B7C0 /* Security.framework */; };
+		889C04E51A63C86900E2B7C0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889C04E41A63C86900E2B7C0 /* StoreKit.framework */; };
+		889C04E71A63C87300E2B7C0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889C04E61A63C87300E2B7C0 /* SystemConfiguration.framework */; };
+		889C04E91A63C88000E2B7C0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 889C04E81A63C88000E2B7C0 /* libz.dylib */; };
+		889C04EB1A63C89000E2B7C0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 889C04EA1A63C89000E2B7C0 /* libsqlite3.dylib */; };
+		889C04F11A63CF5C00E2B7C0 /* bridgingFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 889C04F01A63CF5C00E2B7C0 /* bridgingFile.m */; };
+		88A3B9831A6597F5009041A4 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A3B9821A6597F5009041A4 /* mainViewController.swift */; };
+		88A3B9851A65AD1D009041A4 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A3B9841A65AD1D009041A4 /* signUpViewController.swift */; };
+		88E3D6B11A6767B800966AC0 /* forgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E3D6B01A6767B800966AC0 /* forgotPasswordViewController.swift */; };
+		88EAF64D1A7079E200927BA7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EAF64C1A7079E200927BA7 /* MapKit.framework */; };
+		88EAF64F1A70DA0700927BA7 /* icon-refresh-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EAF64E1A70DA0700927BA7 /* icon-refresh-128.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8863C8451A61A835004C61BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8863C8241A61A835004C61BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8863C82B1A61A835004C61BD;
+			remoteInfo = nightLifeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		881963271A6B6B6000422936 /* navigationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navigationTableViewController.swift; sourceTree = "<group>"; };
+		881BA8D71A7D431E006541B2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		881BA8D81A7D431E006541B2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		881BA8D91A7D431E006541B2 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		881BA8DA1A7D431E006541B2 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		881BA8DB1A7D431E006541B2 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		885068A11A771713008CC00E /* BlockedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockedListViewController.swift; sourceTree = "<group>"; };
+		885068A31A77197E008CC00E /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		885068A51A771985008CC00E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		8863C82C1A61A835004C61BD /* nightLifeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nightLifeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8863C8301A61A835004C61BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8863C8311A61A835004C61BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8863C8341A61A835004C61BD /* nightLifeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nightLifeApp.xcdatamodel; sourceTree = "<group>"; };
+		8863C8361A61A835004C61BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8863C8391A61A835004C61BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8863C83B1A61A835004C61BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8863C83E1A61A835004C61BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8863C8441A61A835004C61BD /* nightLifeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nightLifeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8863C8491A61A835004C61BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8863C84A1A61A835004C61BD /* nightLifeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nightLifeAppTests.swift; sourceTree = "<group>"; };
+		8863C8551A61A989004C61BD /* Contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contacts.png; sourceTree = "<group>"; };
+		8863C8561A61A989004C61BD /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
+		8863C8571A61A989004C61BD /* hamburgerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburgerButton.png; sourceTree = "<group>"; };
+		8863C8581A61A989004C61BD /* location-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location-circle.png"; sourceTree = "<group>"; };
+		8863C8591A61A989004C61BD /* NightLife_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NightLife_logo.png; sourceTree = "<group>"; };
+		8863C85A1A61A989004C61BD /* settingsGear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsGear.png; sourceTree = "<group>"; };
+		8863C8611A61ABBE004C61BD /* glassGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glassGrey.png; sourceTree = "<group>"; };
+		8863C8631A61ADBB004C61BD /* splashLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashLogo.png; sourceTree = "<group>"; };
+		8863C8651A61BE95004C61BD /* emptyglass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyglass.png; sourceTree = "<group>"; };
+		88700F6B1A664D3A0019A8C5 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		888033C21A7AB59F00AFC549 /* AddFriendsDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddFriendsDemoViewController.swift; path = ../AddFriendsDemoViewController.swift; sourceTree = "<group>"; };
+		888670CA1A774D1100B9AA66 /* safeDriversViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = safeDriversViewController.swift; sourceTree = "<group>"; };
+		889C04D61A63C82C00E2B7C0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		889C04D81A63C83400E2B7C0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		889C04DA1A63C83D00E2B7C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		889C04DC1A63C84500E2B7C0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		889C04DE1A63C84E00E2B7C0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		889C04E01A63C85600E2B7C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		889C04E21A63C86100E2B7C0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		889C04E41A63C86900E2B7C0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		889C04E61A63C87300E2B7C0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		889C04E81A63C88000E2B7C0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		889C04EA1A63C89000E2B7C0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		889C04EF1A63CF5B00E2B7C0 /* nightLifeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nightLifeApp-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		889C04F01A63CF5C00E2B7C0 /* bridgingFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bridgingFile.m; sourceTree = "<group>"; };
+		88A3B9821A6597F5009041A4 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		88A3B9841A65AD1D009041A4 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		88E3D6B01A6767B800966AC0 /* forgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forgotPasswordViewController.swift; sourceTree = "<group>"; };
+		88EAF64C1A7079E200927BA7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		88EAF64E1A70DA0700927BA7 /* icon-refresh-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-refresh-128.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8863C8291A61A835004C61BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881BA8DC1A7D431E006541B2 /* Bolts.framework in Frameworks */,
+				885068A61A771985008CC00E /* AddressBook.framework in Frameworks */,
+				881BA8DF1A7D431E006541B2 /* ParseFacebookUtils.framework in Frameworks */,
+				885068A41A77197E008CC00E /* AddressBookUI.framework in Frameworks */,
+				881BA8DE1A7D431E006541B2 /* ParseCrashReporting.framework in Frameworks */,
+				889C04EB1A63C89000E2B7C0 /* libsqlite3.dylib in Frameworks */,
+				889C04E91A63C88000E2B7C0 /* libz.dylib in Frameworks */,
+				889C04E71A63C87300E2B7C0 /* SystemConfiguration.framework in Frameworks */,
+				881BA8DD1A7D431E006541B2 /* Parse.framework in Frameworks */,
+				889C04E51A63C86900E2B7C0 /* StoreKit.framework in Frameworks */,
+				881BA8E01A7D431E006541B2 /* ParseUI.framework in Frameworks */,
+				88EAF64D1A7079E200927BA7 /* MapKit.framework in Frameworks */,
+				889C04E31A63C86100E2B7C0 /* Security.framework in Frameworks */,
+				889C04E11A63C85600E2B7C0 /* QuartzCore.framework in Frameworks */,
+				889C04DF1A63C84E00E2B7C0 /* MobileCoreServices.framework in Frameworks */,
+				889C04DD1A63C84500E2B7C0 /* CoreLocation.framework in Frameworks */,
+				889C04DB1A63C83D00E2B7C0 /* CoreGraphics.framework in Frameworks */,
+				889C04D91A63C83400E2B7C0 /* CFNetwork.framework in Frameworks */,
+				889C04D71A63C82C00E2B7C0 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8863C8411A61A835004C61BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		881BA8D61A7D431E006541B2 /* parse-library-1 */ = {
+			isa = PBXGroup;
+			children = (
+				881BA8D71A7D431E006541B2 /* Bolts.framework */,
+				881BA8D81A7D431E006541B2 /* Parse.framework */,
+				881BA8D91A7D431E006541B2 /* ParseCrashReporting.framework */,
+				881BA8DA1A7D431E006541B2 /* ParseFacebookUtils.framework */,
+				881BA8DB1A7D431E006541B2 /* ParseUI.framework */,
+			);
+			path = "parse-library-1";
+			sourceTree = "<group>";
+		};
+		8863C8231A61A835004C61BD = {
+			isa = PBXGroup;
+			children = (
+				8863C82E1A61A835004C61BD /* nightLifeApp */,
+				8863C8471A61A835004C61BD /* nightLifeAppTests */,
+				8863C82D1A61A835004C61BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8863C82D1A61A835004C61BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8863C82C1A61A835004C61BD /* nightLifeApp.app */,
+				8863C8441A61A835004C61BD /* nightLifeAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8863C82E1A61A835004C61BD /* nightLifeApp */ = {
+			isa = PBXGroup;
+			children = (
+				8863C8541A61A989004C61BD /* images */,
+				8863C8311A61A835004C61BD /* AppDelegate.swift */,
+				8863C8361A61A835004C61BD /* ViewController.swift */,
+				88A3B9841A65AD1D009041A4 /* signUpViewController.swift */,
+				88E3D6B01A6767B800966AC0 /* forgotPasswordViewController.swift */,
+				88A3B9821A6597F5009041A4 /* mainViewController.swift */,
+				888033C21A7AB59F00AFC549 /* AddFriendsDemoViewController.swift */,
+				88700F6B1A664D3A0019A8C5 /* settingsViewController.swift */,
+				888670CA1A774D1100B9AA66 /* safeDriversViewController.swift */,
+				885068A11A771713008CC00E /* BlockedListViewController.swift */,
+				8863C8381A61A835004C61BD /* Main.storyboard */,
+				881963271A6B6B6000422936 /* navigationTableViewController.swift */,
+				8863C83B1A61A835004C61BD /* Images.xcassets */,
+				8863C83D1A61A835004C61BD /* LaunchScreen.xib */,
+				8863C8331A61A835004C61BD /* nightLifeApp.xcdatamodeld */,
+				889C04F01A63CF5C00E2B7C0 /* bridgingFile.m */,
+				889C04EF1A63CF5B00E2B7C0 /* nightLifeApp-Bridging-Header.h */,
+				889C04EA1A63C89000E2B7C0 /* libsqlite3.dylib */,
+				889C04E81A63C88000E2B7C0 /* libz.dylib */,
+				881BA8D61A7D431E006541B2 /* parse-library-1 */,
+				885068A51A771985008CC00E /* AddressBook.framework */,
+				885068A31A77197E008CC00E /* AddressBookUI.framework */,
+				88EAF64C1A7079E200927BA7 /* MapKit.framework */,
+				889C04E61A63C87300E2B7C0 /* SystemConfiguration.framework */,
+				889C04E41A63C86900E2B7C0 /* StoreKit.framework */,
+				889C04E21A63C86100E2B7C0 /* Security.framework */,
+				889C04E01A63C85600E2B7C0 /* QuartzCore.framework */,
+				889C04DE1A63C84E00E2B7C0 /* MobileCoreServices.framework */,
+				889C04DC1A63C84500E2B7C0 /* CoreLocation.framework */,
+				889C04DA1A63C83D00E2B7C0 /* CoreGraphics.framework */,
+				889C04D81A63C83400E2B7C0 /* CFNetwork.framework */,
+				889C04D61A63C82C00E2B7C0 /* AudioToolbox.framework */,
+				8863C82F1A61A835004C61BD /* Supporting Files */,
+			);
+			path = nightLifeApp;
+			sourceTree = "<group>";
+		};
+		8863C82F1A61A835004C61BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8863C8301A61A835004C61BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8863C8471A61A835004C61BD /* nightLifeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8863C84A1A61A835004C61BD /* nightLifeAppTests.swift */,
+				8863C8481A61A835004C61BD /* Supporting Files */,
+			);
+			path = nightLifeAppTests;
+			sourceTree = "<group>";
+		};
+		8863C8481A61A835004C61BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8863C8491A61A835004C61BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8863C8541A61A989004C61BD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				88EAF64E1A70DA0700927BA7 /* icon-refresh-128.png */,
+				8863C8651A61BE95004C61BD /* emptyglass.png */,
+				8863C8631A61ADBB004C61BD /* splashLogo.png */,
+				8863C8611A61ABBE004C61BD /* glassGrey.png */,
+				8863C8551A61A989004C61BD /* Contacts.png */,
+				8863C8561A61A989004C61BD /* glass.png */,
+				8863C8571A61A989004C61BD /* hamburgerButton.png */,
+				8863C8581A61A989004C61BD /* location-circle.png */,
+				8863C8591A61A989004C61BD /* NightLife_logo.png */,
+				8863C85A1A61A989004C61BD /* settingsGear.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8863C82B1A61A835004C61BD /* nightLifeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8863C84E1A61A835004C61BD /* Build configuration list for PBXNativeTarget "nightLifeApp" */;
+			buildPhases = (
+				8863C8281A61A835004C61BD /* Sources */,
+				8863C8291A61A835004C61BD /* Frameworks */,
+				8863C82A1A61A835004C61BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nightLifeApp;
+			productName = nightLifeApp;
+			productReference = 8863C82C1A61A835004C61BD /* nightLifeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8863C8431A61A835004C61BD /* nightLifeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8863C8511A61A835004C61BD /* Build configuration list for PBXNativeTarget "nightLifeAppTests" */;
+			buildPhases = (
+				8863C8401A61A835004C61BD /* Sources */,
+				8863C8411A61A835004C61BD /* Frameworks */,
+				8863C8421A61A835004C61BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8863C8461A61A835004C61BD /* PBXTargetDependency */,
+			);
+			name = nightLifeAppTests;
+			productName = nightLifeAppTests;
+			productReference = 8863C8441A61A835004C61BD /* nightLifeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8863C8241A61A835004C61BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jordan Weaver";
+				TargetAttributes = {
+					8863C82B1A61A835004C61BD = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 9BW76ERB5M;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					8863C8431A61A835004C61BD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 8863C82B1A61A835004C61BD;
+					};
+				};
+			};
+			buildConfigurationList = 8863C8271A61A835004C61BD /* Build configuration list for PBXProject "nightLifeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8863C8231A61A835004C61BD;
+			productRefGroup = 8863C82D1A61A835004C61BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8863C82B1A61A835004C61BD /* nightLifeApp */,
+				8863C8431A61A835004C61BD /* nightLifeAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8863C82A1A61A835004C61BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8863C83A1A61A835004C61BD /* Main.storyboard in Resources */,
+				8863C83F1A61A835004C61BD /* LaunchScreen.xib in Resources */,
+				8863C8661A61BE95004C61BD /* emptyglass.png in Resources */,
+				8863C8601A61A989004C61BD /* settingsGear.png in Resources */,
+				88EAF64F1A70DA0700927BA7 /* icon-refresh-128.png in Resources */,
+				8863C85C1A61A989004C61BD /* glass.png in Resources */,
+				8863C85B1A61A989004C61BD /* Contacts.png in Resources */,
+				8863C83C1A61A835004C61BD /* Images.xcassets in Resources */,
+				8863C85E1A61A989004C61BD /* location-circle.png in Resources */,
+				8863C85D1A61A989004C61BD /* hamburgerButton.png in Resources */,
+				8863C85F1A61A989004C61BD /* NightLife_logo.png in Resources */,
+				8863C8621A61ABBE004C61BD /* glassGrey.png in Resources */,
+				8863C8641A61ADBB004C61BD /* splashLogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8863C8421A61A835004C61BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8863C8281A61A835004C61BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8863C8371A61A835004C61BD /* ViewController.swift in Sources */,
+				888033C31A7AB59F00AFC549 /* AddFriendsDemoViewController.swift in Sources */,
+				8863C8351A61A835004C61BD /* nightLifeApp.xcdatamodeld in Sources */,
+				88E3D6B11A6767B800966AC0 /* forgotPasswordViewController.swift in Sources */,
+				88A3B9851A65AD1D009041A4 /* signUpViewController.swift in Sources */,
+				885068A21A771713008CC00E /* BlockedListViewController.swift in Sources */,
+				88A3B9831A6597F5009041A4 /* mainViewController.swift in Sources */,
+				881963281A6B6B6000422936 /* navigationTableViewController.swift in Sources */,
+				8863C8321A61A835004C61BD /* AppDelegate.swift in Sources */,
+				889C04F11A63CF5C00E2B7C0 /* bridgingFile.m in Sources */,
+				88700F6C1A664D3A0019A8C5 /* settingsViewController.swift in Sources */,
+				888670CB1A774D1100B9AA66 /* safeDriversViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8863C8401A61A835004C61BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8863C84B1A61A835004C61BD /* nightLifeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8863C8461A61A835004C61BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8863C82B1A61A835004C61BD /* nightLifeApp */;
+			targetProxy = 8863C8451A61A835004C61BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8863C8381A61A835004C61BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8863C8391A61A835004C61BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8863C83D1A61A835004C61BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8863C83E1A61A835004C61BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8863C84C1A61A835004C61BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8863C84D1A61A835004C61BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8863C84F1A61A835004C61BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/nightLifeApp/parse-library-1",
+				);
+				INFOPLIST_FILE = nightLifeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "nightLifeApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8863C8501A61A835004C61BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/nightLifeApp/parse-library-1",
+				);
+				INFOPLIST_FILE = nightLifeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "nightLifeApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		8863C8521A61A835004C61BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nightLifeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nightLifeApp.app/nightLifeApp";
+			};
+			name = Debug;
+		};
+		8863C8531A61A835004C61BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nightLifeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nightLifeApp.app/nightLifeApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8863C8271A61A835004C61BD /* Build configuration list for PBXProject "nightLifeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8863C84C1A61A835004C61BD /* Debug */,
+				8863C84D1A61A835004C61BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8863C84E1A61A835004C61BD /* Build configuration list for PBXNativeTarget "nightLifeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8863C84F1A61A835004C61BD /* Debug */,
+				8863C8501A61A835004C61BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8863C8511A61A835004C61BD /* Build configuration list for PBXNativeTarget "nightLifeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8863C8521A61A835004C61BD /* Debug */,
+				8863C8531A61A835004C61BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8863C8331A61A835004C61BD /* nightLifeApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8863C8341A61A835004C61BD /* nightLifeApp.xcdatamodel */,
+			);
+			currentVersion = 8863C8341A61A835004C61BD /* nightLifeApp.xcdatamodel */;
+			path = nightLifeApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8863C8241A61A835004C61BD /* Project object */;
+}
